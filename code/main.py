@@ -57,6 +57,8 @@ llm = init_chat_model(
     api_key = os.getenv(key="API_KEY")
 )
 
+
+
 SYSTEM_PROMPT = "You are a helpful AI assistant!"
 
 history = [
